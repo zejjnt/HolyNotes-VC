@@ -6,7 +6,8 @@
 
 import { Channel, Message } from "@vencord/discord-types";
 import { findByCode } from "@webpack";
-import { ChannelStore, lodash, Toasts, UserStore } from "@webpack/common";
+// import { ChannelStore, lodash, Toasts, UserStore } from "@webpack/common";
+import { ChannelStore, lodash, UserStore } from "@webpack/common";
 
 import { Discord, HolyNotes } from "./types";
 import { deleteCacheFromDataStore, DeleteEntireStore, saveCacheToDataStore } from "./utils";
